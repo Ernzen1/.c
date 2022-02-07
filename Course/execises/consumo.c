@@ -13,7 +13,5 @@ int main () {
     media = distancia / combustivel;
 
     printf("Consumo medio = %0.3f", media);
-    
-
-     
+        
 }

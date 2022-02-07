@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main (){
+int main ()
+{
 
     float raio, area, pi;
 
@@ -11,21 +12,5 @@ int main (){
     area = pi * (raio * raio);
 
     printf("AREA = %0.3f", area);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }

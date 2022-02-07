@@ -5,6 +5,8 @@ int main(){
     char nome[100];
     char nome2[100];
     float media;
+
+    
     printf("Insira o nome da primeira pessoa:");
     scanf("%s", &nome);
     

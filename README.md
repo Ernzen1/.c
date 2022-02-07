@@ -1,4 +1,7 @@
 # c
-C studies
+Im starting to programming in 02/22. 
+That is my way to learn to programming, starting by some courses with algorithm and programming logic.
 
-That's my c studies, the first languague that i am learning to programming.
+My first language is C.
+
+*Guilherme Ernzen Marçal*. ©

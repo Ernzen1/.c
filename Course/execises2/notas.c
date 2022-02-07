@@ -2,30 +2,29 @@
 
 int main() 
 {
-    float nota, nota2, media;
+    double nota, nota2, media;
 
     printf("Digite a primeira nota:");
-    scanf("%f", &nota);
+    scanf("%lf", &nota);
 
     printf("Digite a segunda nota:");
-    scanf("%f", &nota2);
+    scanf("%lf", &nota2);
 
-    media = (nota + nota2);
+    media = (nota + nota2) / 2;
 
-   printf("Nota Final %0.1f\n", media);
+    printf("Nota Final %0.2lf\n", media);
     
-    if (media >= 60.00/* condition */)
+    if (media >= 60.00)
     {
         printf("Aprovado!!");
-        /* code */
+        
     }
     
-    else{
-        printf("Reprovado >:(");
-
+    else
+    {
+        printf("Reprovado!");
 
     }
-
 
 }
 

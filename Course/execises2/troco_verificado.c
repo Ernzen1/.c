@@ -19,10 +19,10 @@ int main(){
         printf("Dinheiro insuficiente faltam %.2lf Reais", faltam);
 
     }
-    else {
+    else 
+    {
         troco = dinheiro - (preco * quant);
         printf("Troco = %.2lf", troco);
     }
     
-
 }

@@ -13,7 +13,7 @@ int main ()
      
      if (idade < 0 && quant == 0)
      {
-         printf("Impossivel calcular!");
+        printf("Impossivel calcular!");
         break;
      }
      
@@ -22,11 +22,11 @@ int main ()
     
     if (idade < 0 && quant >= 2)
     {
-         quant--;
-         soma += -idade;
-         media = soma / quant;
-         printf("Media = %lf", media);
-         break;
+        quant--;
+        soma += -idade;
+        media = soma / quant;
+        printf("Media = %lf", media);
+        break;
     }
     
     }

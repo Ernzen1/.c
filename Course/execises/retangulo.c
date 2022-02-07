@@ -20,6 +20,4 @@ int main ()
     printf("\nO perimetro do teu retangulo e esse aqui: %0.4f", perimetro);
     printf("\nA diagonal do teu retangulo e essa aqui: %0.4f", diagonal);
 
-
-
 }

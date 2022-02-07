@@ -10,7 +10,6 @@ int main()
     printf("Insira a quantidade de produtos:");
     scanf("%d", &quantidade);
     
-
     precototal = preco * quantidade;
 
     printf("\nDinheiro recebido:");
@@ -18,9 +17,6 @@ int main()
 
     troco = dinheiro - precototal;
 
-    printf(
-        "TROCO = %0.2f", troco
-    );
-
+    printf("TROCO = %0.2f", troco);
 
 }

@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main (){
-    char  F, C, esc;
+    char esc, C, F;
     double fa, cel, temp;
 
     printf("Qual a escala da temperatura? (C/F)");
     scanf("%c", &esc);
 
-    if (esc = F)
+    if (esc == 'F')
     {
         printf("Digite a temperatura em Fahrenheit:");
         scanf("%lf", &fa);
@@ -16,16 +16,19 @@ int main (){
         printf("Temperatura equivalente em Celsius: %lf", temp);
 
     }
-    else if (esc = C)
+    
+    else if (esc == 'C')
     {
-        printf("Digite a temperatura em Fahrenheit:");
+        printf("Digite a temperatura em Celsius:");
         scanf("%lf", &cel);
-        temp = cel * (5 / 9) + 32;
+        temp = (cel * (5 / 9)) + 32;
 
         printf("Temperatura equivalente em Fahrenheit: %lf", temp);
     }
-        else {
-            printf("Essa não é a escala certa.");
+        
+        else 
+        {
+            printf("Essa nao e a escala certa.");
         }
     }
     

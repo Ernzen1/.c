@@ -2,6 +2,7 @@
 
 int main ()
 {
+    
     int segundos, minutos, horas ;
 
     printf("Digite a duraçao em segundos:");
@@ -15,10 +16,5 @@ int main ()
     segundos -= minutos * 60;
 
     printf("%d:%d:%d", horas, minutos, segundos);
-
-
-
-    
-
-    
+ 
 }

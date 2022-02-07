@@ -11,11 +11,10 @@ int main ()
     if ((num1 % num2 == 0) || (num2 % num1 == 0))
     {
         printf("Os numeros sao multiplos");
-
     }
+    
     else 
+    
     printf("Os numeros nao sao multiplos");
-
-
 
 }

@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main (){
+int main ()
+{
 
 char  Nome[100];
 float valorh, pagamento;
@@ -18,15 +19,5 @@ scanf("%f", &valorh);
 pagamento = horas * valorh;
 
 printf(" O Pagamento de %s deve ser %0.2f", Nome,  pagamento);
-
-
-
-
-
-
-
-
-
-
 
 }

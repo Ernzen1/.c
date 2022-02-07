@@ -17,6 +17,7 @@ int main()
 
         printf("O jogo durou %d hora(s)", hora2);
     }
+    
     else if (horai < horaf)
     {
         hora2 = horaf - horai;

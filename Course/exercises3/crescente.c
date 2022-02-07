@@ -4,8 +4,6 @@ int main ()
 {
     int num1, num2;
 
-    
-
     while (1)
     {
        printf("Digite dois números:");
@@ -21,9 +19,11 @@ int main ()
            printf("Crescente!\n");
        }
 
-        else {
+        else 
+        {
             break;
         }
+
     }
     
 }

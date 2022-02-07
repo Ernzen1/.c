@@ -4,7 +4,6 @@ int main()
 {
     double glic; 
 
-
     printf("Digite a medida da glicose:");
     scanf("%lf", &glic);
 
@@ -17,8 +16,9 @@ int main()
     {
         printf("Classificação: elevado");
     }
+    
     else
     {
-            printf("Classificação: diabetes");
+        printf("Classificação: diabetes");
     }
 }
