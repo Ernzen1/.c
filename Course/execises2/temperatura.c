@@ -12,7 +12,7 @@ int main (){
         printf("Digite a temperatura em Fahrenheit:");
         scanf("%lf", &fa);
         temp = (5 / 9) * (fa - 32);
-
+        
         printf("Temperatura equivalente em Celsius: %lf", temp);
 
     }
