@@ -1,7 +1,7 @@
 # c
-Im starting to programming in 02/22. 
-That is my way to learn to programming, starting by some courses with algorithm and programming logic.
+Im starting to program in 02/22. 
+This is my journey  to be a developer, starting with courses about algorithm and programming logic.
 
 My first language is C.
 
-*Guilherme Ernzen Marçal*. ©
+*Guilherme Ernzen Marçal* ©
