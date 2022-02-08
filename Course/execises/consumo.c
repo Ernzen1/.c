@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-int main () {
+int main () 
+{
+    
     int distancia;
     float combustivel, media;
 
@@ -12,6 +14,5 @@ int main () {
 
     media = distancia / combustivel;
 
-    printf("Consumo medio = %0.3f", media);
-        
+    printf("Consumo medio = %0.3f", media);        
 }

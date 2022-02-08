@@ -2,13 +2,11 @@
 
 int main ()
 {
-    double salario, nsalario;
+    double salario, nsalario;   
     int aumento, porcentagem;
-
 
     printf("Digite o salario do colaborador:");
     scanf("%lf", &salario);
-
     
     if (salario < 1000)
     {
